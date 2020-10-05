@@ -1,7 +1,7 @@
 import App from "next/app";
 import Head from "next/head";
 import { AppProvider } from "@shopify/polaris";
-import "@shopify/polaris/styles.css";
+import "@shopify/polaris/dist/styles.css";
 import translations from "@shopify/polaris/locales/en.json";
 
 class MyApp extends App {
@@ -20,3 +20,5 @@ class MyApp extends App {
     );
   }
 }
+
+export default MyApp;
