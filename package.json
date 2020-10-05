@@ -1,0 +1,34 @@
+{
+  "name": "Merchandise-Market",
+  "version": "1.0.0",
+  "description": "E-commerce site built using React, Next.js, Node, GraphQL and Shopify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephensayage/Merchandise-Market.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephensayage/Merchandise-Market/issues"
+  },
+  "homepage": "https://github.com/Stephensayage/Merchandise-Market#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.70",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.2",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
